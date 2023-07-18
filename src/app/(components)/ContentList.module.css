@@ -1,0 +1,76 @@
+.coursecomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+
+.courseheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.searchicon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.coursenav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.navitem {
+    margin-right: 10px;
+    padding: 8px 12px;
+    /* background-color: #f0f0f0; */
+    background: transparent;
+    color: #b3b3b3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navitem.active {
+    color: #180600;
+    background: transparent;
+    /* background-color: #ccc; */
+}
+
+.courselang {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.langbutton {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filterbutton {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contentlist {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.contentlist::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,42 @@
+.contentbody {
+    max-height: 700px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.contentbody::-webkit-scrollbar{
+    display: none;
+}
+
+.contentdetail{
+    display:flex;
+    padding-top:10px;
+    padding-bottom:10px;
+    gap:10px;
+}
+
+.contenttitle{
+    font-weight:bold;
+    font-size:1.25rem;
+    padding-bottom: 15px;
+}
+
+.contentdescription{
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.author{
+    display:flex;
+}
+
+.authordescription{
+    padding: 5px;
+}
+
+.course{
+
+}

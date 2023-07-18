@@ -1,0 +1,26 @@
+.navitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+}
+
+.navlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.navlink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink.active {
+    color: white;
+    text-decoration: none;
+}
